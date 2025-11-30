@@ -23,7 +23,7 @@ export const Projects = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: index * 0.1 }}
-                            className={index === 0 || index === 3 || index === 6 ? "md:col-span-2" : ""}
+                            className={index === 0 || index === 3 ? "md:col-span-2" : ""}
                         >
                             <Card className="h-full group relative hover:shadow-2xl hover:shadow-primary-500/10 transition-all duration-300">
                                 <div className="p-8 h-full flex flex-col">

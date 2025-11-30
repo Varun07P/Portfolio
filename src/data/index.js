@@ -60,4 +60,23 @@ export const projects = [
         demoUrl: "#",
         repoUrl: "https://github.com/Pandeycoder/E-Commerce"
     }
+    ,
+    {
+        id: 5,
+        title: "Ecommerce Fake Store",
+        description: "A modern e-commerce application built with fake store data, featuring product browsing, cart management, and checkout functionality.",
+        tags: ["React", "API Integration", "CSS", "Shopping Cart"],
+        image: "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&q=80&w=800",
+        demoUrl: "https://fakestore-ruddy.vercel.app/",
+        repoUrl: "https://github.com/Varun07P/fakestore"
+    },
+    {
+        id: 6,
+        title: "Book Finder",
+        description: "A book discovery application that allows users to search for books, view details, and explore recommendations with an intuitive interface.",
+        tags: ["React", "API Integration", "Search Functionality", "Responsive Design"],
+        image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        demoUrl: "https://bookfinder-kappa.vercel.app/",
+        repoUrl: "https://github.com/Varun07P/bookfinder"
+    }
 ];
